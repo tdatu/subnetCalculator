@@ -27,7 +27,7 @@
 	<meta name="msapplication-config" content="/browserconfig.xml">
 
 
-
+	<!-- will change to external css file -->
 	<style>
 		
 		input.ip-octet, .cidr, 
