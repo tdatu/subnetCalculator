@@ -9,3 +9,6 @@ Copy the source to /var/www/html
 
 ## Sample Site:
 http://my-ip.embis.org
+
+## Todo:
+1) Provide first and last IP.
