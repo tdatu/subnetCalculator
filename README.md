@@ -6,3 +6,6 @@ This is just a quick and dirty subnet calculator. Meant for intranet sites to ai
 Requirements: Apache and PHP 5+
 Copy the source to /var/www/html
 
+
+## Sample Site:
+http://my-ip.embis.org
