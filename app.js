@@ -48,7 +48,7 @@ function updateSubnetMaskView(){
 
 //Register the event listeners when updating IPv4
 ip.forEach(function(el){
-	el.addEventListener("onchange", function(){
+	el.addEventListener("onkeyup", function(){
 		var octets = [];
 		for(var i = 0; i < ip.length; i++){
 			octets.push(parseInt(ip[i].value));
@@ -59,7 +59,7 @@ ip.forEach(function(el){
 });
 
 //Register event listener when updating CIDR
-cidr.addEventListener("onchange", function(){
+cidr.addEventListener("onkeyup", function(){
 	app.setCidr(parseInt(this.value));
 	updateTotalIPView();
 	updateBinarySubnetView();
